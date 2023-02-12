@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+	margin: 0px ;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+	line-height: 40px;
+}
+
+p{
+	line-height: 40px;
+}
+h1,h2,h3{
+	color: #be3455;
+}
+
+.heading{
+	margin: 100px 0px;
+
+	
+}
+.heading h2{
+	font-size: 50px;
+	text-align: center;
+}
+.heading h1{
+	font-size: 50px;
+	text-align: center;
+	margin: 32px;
+
+}
+
+.flex{}
+
+.contact{}
+.contact h2{
+    font-size: 25px;
+    margin: 29px 175px;
+    text-decoration-line: underline;
+}
+
+.container
+.column-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.column-2 h3{}
+.column-2 p{font-size: 21px;max-width: 70%;padding: 0px 177px;}
+.column-2 img{
+    flex-basis: 90%;
+    max-width: 50%;
+    padding: 8px 259px;
+}
+
+.career{
+	display: block;
+}
+.career h2{
+	font-size: 25px;
+	margin: 40px 58px;
+	text-decoration-line: underline;
+}
+.career p{
+	font-size: 21px;
+	margin: 0px 81px;
+	width: 1170px;
+}
+.qualification{
+	display: block;
+	margin: 45px 63px;
+}
+.qualification h2{
+	font-size: 25px;
+	text-decoration-line: underline;
+}
+table{
+	width: 1131px;
+	margin: 0px 83px;
+	font-size: 21px;
+}
+table, th, td{
+	border: 1px solid black;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+.personal{
+	display: block;
+	margin: 45px 1px;
+}
+.personal h2{
+	font-size: 25px;
+	margin: 38px 65px;
+	text-decoration-line: underline;
+}
+
+.skills{}
+.skills h2{
+    font-size: 25px;
+    margin: 0px 65px;
+    text-decoration-line: underline;
+}
+.skills p{
+    font-size: 21px;
+    margin: 40px 85px;
+}
+
+.language{}
+.language h2{
+	font-size: 25px;
+	margin: 0px 65px;
+	text-decoration-line: underline;
+}
+.language ul{
+    list-style-type: decimal;
+}
+.language ul li{
+	font-size: 21px;
+	margin: 40px 109px;
+}
+.language ul li strong{
+	color: #be3455;
+}
+
+.Interest{
+    display: block;
+    margin: 45px 67px;
+}
+.Interest h2{
+    font-size: 25px;
+    text-decoration-line: underline;
+}
+.Interest p{
+    font-size: 21px;
+    margin: 38px 22px;
+}
+
+.reference{display: block;margin: 40px 70px;}
+.reference h2{
+    font-size: 25px;
+    text-decoration-line: underline;
+}
+
+.container{
+}
+.column-1{
+	display: flex;
+	flex-direction: column;
+	margin: 18px 90px;
+}
+.column-1 h2{}
+.column-1 p{
+    font-size: 21px;
+    margin: 24px;
+    max-width: 300px;
+}
+
+
+.consent{
+    font-size: 22px;
+    margin: 101px 95px;
+}
+.consent p{
+    font-size: 21px;
+}
+
+.signature{
+    font-size: 22px;
+    margin: 153px 920px;
+}
+.signature p{
+    font-size: 21px;
+}
+
+
+
+
